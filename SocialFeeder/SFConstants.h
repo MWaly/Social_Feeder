@@ -15,17 +15,17 @@
  *  Feed Source
  */
 typedef enum  {
-    BBC = 1,
-    Itunes = 2,
-    FourSquare= 3
+	NYTimesSource = 1,
+	Itunes = 2,
+	FourSquare = 3
 }FeedSource;
 
 /**
  *  Filteration Type
  */
 typedef enum  {
-    Last7Days = 1,
-    WithImage = 2,
+	Last7Days = 1,
+	WithImage = 2,
 }Filteration;
 
 
@@ -33,10 +33,10 @@ typedef enum  {
  *  Sorting Options
  */
 typedef enum  {
-    DateNewest = 1,
-    DateOldest = 2,
-    AlphabeticalAscending= 3,
-    AlphabeticalDescending= 4
+	DateNewest = 1,
+	DateOldest = 2,
+	AlphabeticalAscending = 3,
+	AlphabeticalDescending = 4
 }SortOptions;
 
 
@@ -63,3 +63,5 @@ typedef enum  {
 #define NYTimes @"http://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml"
 
 #define PlaceHolder @"http://charlestonharborproperties.com/images/no_image_available.png"
+
+#define PlaceHolderNY @"http://www.userlogos.org/files/logos/bcm2009/nytimes.png"

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SFFeedParser.h"
-@interface SFNYTimesParser :SFFeedParser
+@interface SFNYTimesParser : SFFeedParser
 
 
 

@@ -47,6 +47,9 @@ install_resource "Foursquare-API-v2/Foursquare2/pin@2x.png"
 install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray.png"
 install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray@2x.png"
 install_resource "Foursquare-API-v2/Foursquare2/FSWebLogin.xib"
+install_resource "KDropDownMultipleSelection/kDropDown/check_mark@2x.png"
+install_resource "KDropDownMultipleSelection/kDropDown/done@2x.png"
+install_resource "KDropDownMultipleSelection/kDropDown/drop_down@2x.png"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then

@@ -10,6 +10,6 @@
 
 @interface SFFourSquareVeneuesParser : NSObject
 
-+ (instancetype)initWithArray:(NSArray*)array;
++ (instancetype)initWithArray:(NSArray *)array;
 
 @end

@@ -30,6 +30,10 @@
 		52D3E57F1924C3AC0088828F /* SFFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E57E1924C3AC0088828F /* SFFeedParser.m */; };
 		52D3E5821924E5C20088828F /* SFFourSquareVeneuesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E5811924E5C20088828F /* SFFourSquareVeneuesParser.m */; };
 		52D3E5851924E6010088828F /* SFFourSquareVenueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E5841924E6010088828F /* SFFourSquareVenueItem.m */; };
+		52D3E5871925024F0088828F /* foursquare-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D3E5861925024F0088828F /* foursquare-128.png */; };
+		52D3E5891925026F0088828F /* vkontakte-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D3E5881925026F0088828F /* vkontakte-128.png */; };
+		52D3E58C192505620088828F /* SFFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E58B192505620088828F /* SFFeedTableViewCell.m */; };
+		52D3E58F192505730088828F /* SFFourSquareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E58E192505730088828F /* SFFourSquareTableViewCell.m */; };
 		B74DDC1992B44B4688CC3016 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45489AEEF354448C9D37D2EB /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +87,12 @@
 		52D3E5811924E5C20088828F /* SFFourSquareVeneuesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFourSquareVeneuesParser.m; sourceTree = "<group>"; };
 		52D3E5831924E6010088828F /* SFFourSquareVenueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFourSquareVenueItem.h; sourceTree = "<group>"; };
 		52D3E5841924E6010088828F /* SFFourSquareVenueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFourSquareVenueItem.m; sourceTree = "<group>"; };
+		52D3E5861925024F0088828F /* foursquare-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foursquare-128.png"; sourceTree = "<group>"; };
+		52D3E5881925026F0088828F /* vkontakte-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vkontakte-128.png"; sourceTree = "<group>"; };
+		52D3E58A192505620088828F /* SFFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFeedTableViewCell.h; sourceTree = "<group>"; };
+		52D3E58B192505620088828F /* SFFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFeedTableViewCell.m; sourceTree = "<group>"; };
+		52D3E58D192505730088828F /* SFFourSquareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFourSquareTableViewCell.h; sourceTree = "<group>"; };
+		52D3E58E192505730088828F /* SFFourSquareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFourSquareTableViewCell.m; sourceTree = "<group>"; };
 		79737C3E576548028B1C2C97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +139,10 @@
 		52AB4FA21923E20000753337 /* Interface Outlet Files */ = {
 			isa = PBXGroup;
 			children = (
+				52D3E5861925024F0088828F /* foursquare-128.png */,
+				52D3E5881925026F0088828F /* vkontakte-128.png */,
 				52B3C25C1923888500363E60 /* Main.storyboard */,
+				52D3E5901925057D0088828F /* Custom Views */,
 			);
 			name = "Interface Outlet Files";
 			sourceTree = "<group>";
@@ -158,7 +171,6 @@
 		52AB4FAC1923F33D00753337 /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
-				52D3E42819242C810088828F /* JSON Helpers */,
 				52AB4FA31923E23C00753337 /* SFItem.h */,
 				52AB4FA41923E23C00753337 /* SFItem.m */,
 				52D3E5831924E6010088828F /* SFFourSquareVenueItem.h */,
@@ -278,11 +290,15 @@
 			name = Shared;
 			sourceTree = "<group>";
 		};
-		52D3E42819242C810088828F /* JSON Helpers */ = {
+		52D3E5901925057D0088828F /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				52D3E58A192505620088828F /* SFFeedTableViewCell.h */,
+				52D3E58B192505620088828F /* SFFeedTableViewCell.m */,
+				52D3E58D192505730088828F /* SFFourSquareTableViewCell.h */,
+				52D3E58E192505730088828F /* SFFourSquareTableViewCell.m */,
 			);
-			name = "JSON Helpers";
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,8 +380,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D3E5891925026F0088828F /* vkontakte-128.png in Resources */,
 				52B3C2631923888500363E60 /* Images.xcassets in Resources */,
 				52B3C2551923888500363E60 /* InfoPlist.strings in Resources */,
+				52D3E5871925024F0088828F /* foursquare-128.png in Resources */,
 				52B3C25E1923888500363E60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +447,8 @@
 				52B3C25B1923888500363E60 /* SFAppDelegate.m in Sources */,
 				52D3E5821924E5C20088828F /* SFFourSquareVeneuesParser.m in Sources */,
 				52D3E5851924E6010088828F /* SFFourSquareVenueItem.m in Sources */,
+				52D3E58F192505730088828F /* SFFourSquareTableViewCell.m in Sources */,
+				52D3E58C192505620088828F /* SFFeedTableViewCell.m in Sources */,
 				52AB4FA11923E1E500753337 /* SFNotifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

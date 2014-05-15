@@ -16,31 +16,31 @@
 /**
  *  Main Title
  */
-@property (nonatomic, copy) NSString* title;
+@property (nonatomic, copy) NSString *title;
 
 /**
  *  Detailed Info
  */
 
-@property (nonatomic, copy) NSString* detail;
+@property (nonatomic, copy) NSString *detail;
 
 /**
- *  Source (e.g Foursquare , bbc , etc..)
+ *  Source (e.g Foursquare , Ny , etc..)
  */
-@property (nonatomic, assign) FeedSource source;
+@property (nonatomic, unsafe_unretained) FeedSource source;
 
 /**
  *  Image if any
  */
-@property (nonatomic, strong) NSString* imageURL;
+@property (nonatomic, strong) NSString *imageURL;
 
 /**
  *  Link If Any
  */
 
-@property (nonatomic, copy) NSString* link;
+@property (nonatomic, copy) NSString *link;
 
-@property (nonatomic, strong) NSDate* date;
+@property (nonatomic, strong) NSDate *date;
 
 
 @end

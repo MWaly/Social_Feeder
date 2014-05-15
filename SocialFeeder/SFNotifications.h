@@ -9,21 +9,18 @@
 #import <Foundation/Foundation.h>
 
 /**
- *  Constants for notification system 
+ *  Constants for notification system
  */
 @interface SFNotifications : NSObject
 
 
 #pragma mark - Network Notifications -
-extern NSString *const SFNetworkDidRetrieveItunesFeed;
+extern NSString * const SFNetworkDidRetrieveItunesFeed;
 extern NSString *const SFNetworkDidRetrieveItunesFeedError;
 extern NSString *const SFNetworkDidRetrieveNYTimesFeed;
 extern NSString *const SFNetworkDidRetrieveNYTimesFeedError;
 extern NSString *const SFNetworkDidRetrieveFoursquare;
 extern NSString *const SFNetworkDidRetrieveFoursquareError;
-
-
-
 
 
 

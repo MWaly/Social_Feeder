@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DropDownListView.h"
+@interface SFViewController : UIViewController <UITableViewDataSource,UITableViewDelegate , kDropDownListViewDelegate>
+/// mutable array carrying all items
 
-@interface SFViewController : UIViewController
-
+@property (nonatomic,strong) NSMutableArray *arrayOfItems;
+- (IBAction)filterAction:(UIButton*)sender;
 @end

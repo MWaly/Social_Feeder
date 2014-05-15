@@ -60,6 +60,12 @@
 #define COCOAPODS_VERSION_MINOR_Foursquare_API_v2 4
 #define COCOAPODS_VERSION_PATCH_Foursquare_API_v2 5
 
+// KDropDownMultipleSelection
+#define COCOAPODS_POD_AVAILABLE_KDropDownMultipleSelection
+#define COCOAPODS_VERSION_MAJOR_KDropDownMultipleSelection 1
+#define COCOAPODS_VERSION_MINOR_KDropDownMultipleSelection 0
+#define COCOAPODS_VERSION_PATCH_KDropDownMultipleSelection 1
+
 // MWFeedParser
 #define COCOAPODS_POD_AVAILABLE_MWFeedParser
 #define COCOAPODS_VERSION_MAJOR_MWFeedParser 1

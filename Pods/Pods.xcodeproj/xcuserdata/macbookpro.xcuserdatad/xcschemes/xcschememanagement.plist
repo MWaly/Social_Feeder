@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-KDropDownMultipleSelection.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MWFeedParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>32D37F8BD2C04F3486AE7768</key>
+		<key>58A6F78B8D8F42389658ADB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EB76A7926554E4A9C8DE786</key>
+		<key>5DEC5E98D85E48FFAEB4A3E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96E9F86143814B7295EAD4FB</key>
+		<key>5E65BF994435418BA57517CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CA080EC038B44242934C1FF6</key>
+		<key>78D6401782474ACEB67AEBC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8DA5C5CFE80404CA76232E4</key>
+		<key>A12C2F9125414E7EB928652B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC1C8A4EF90444AB91B80B47</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -38,7 +38,7 @@
  *  @return operation perfromed
  */
 
-- (void )getListOfiTunesSongs;
+- (void)getListOfiTunesSongs;
 
 /**
  *  List of parsed places retrieved around Dubizzle HQ using Foursquare
@@ -49,10 +49,6 @@
 - (void)getListOfNearbyPlaceFromDubizzle;
 
 
-/**
- *  Stop current requests in the queue
- */
-- (void)cancelNetworkRequests;
 
 
 @end
