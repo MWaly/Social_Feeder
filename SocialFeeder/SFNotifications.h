@@ -17,6 +17,10 @@
 #pragma mark - Network Notifications -
 extern NSString *const SFNetworkDidRetrieveItunesFeed;
 extern NSString *const SFNetworkDidRetrieveItunesFeedError;
+extern NSString *const SFNetworkDidRetrieveNYTimesFeed;
+extern NSString *const SFNetworkDidRetrieveNYTimesFeedError;
+extern NSString *const SFNetworkDidRetrieveFoursquare;
+extern NSString *const SFNetworkDidRetrieveFoursquareError;
 
 
 
@@ -27,4 +31,8 @@ extern NSString *const SFNetworkDidRetrieveItunesFeedError;
 #pragma mark - VC Notifications -
 extern NSString *const SFVCDidRetrieveItunesFeed;
 extern NSString *const SFVCDidRetrieveItunesFeedError;
+extern NSString *const SFVCDidRetrieveNYTimesFeed;
+extern NSString *const SFVCDidRetrieveNYTimesFeedError;
+extern NSString *const SFVCDidRetrieveFoursquare;
+extern NSString *const SFVCDidRetrieveFoursquareError;
 @end

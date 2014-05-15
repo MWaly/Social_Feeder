@@ -8,14 +8,24 @@
 
 #import "SFAppDelegate.h"
 #import "AFNetworkActivityIndicatorManager.h"
+#import "Foursquare2.h"
 @implementation SFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Setting up foursquare
+    [Foursquare2 setupFoursquareWithClientId:FourSquareClientId
+                                      secret:FourSquareSecret
+                                 callbackURL:@"www.google.com"];
+    // Activity indicator to show progress whenever there is anetwork request taking place 
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [Foursquare2 handleURL:url];
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

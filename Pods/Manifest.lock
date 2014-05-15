@@ -19,6 +19,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - DateTools (1.2.0)
+  - Foursquare-API-v2 (1.4.5)
   - MWFeedParser (1.0.1):
     - MWFeedParser/FeedParser
     - MWFeedParser/NSDate+InternetDateTime
@@ -32,11 +33,13 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - DateTools
+  - Foursquare-API-v2
   - MWFeedParser
 
 SPEC CHECKSUMS:
   AFNetworking: 01aa7c3aa9a200b94943e54072a4373f14b3d219
   DateTools: 6989dcb0df9dad3ae499f5e9efbd988116586f67
+  Foursquare-API-v2: 60ab223d146bf2424b94006e26ffb227b9df3ab5
   MWFeedParser: c747d7e43ad365a7f18e84924496665944228e86
 
 COCOAPODS: 0.32.1

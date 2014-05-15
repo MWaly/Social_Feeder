@@ -11,6 +11,9 @@
 #import "SFItunesParser.h"
 #import "SFNYTimesParser.h"
 #import "SFBusinessHandler.h"
+#import "Foursquare2.h"
+#import "SFFourSquareVeneuesParser.h"
+
 
 @interface SFSyncer ()
 
@@ -62,14 +65,17 @@ static SFSyncer *networkManager = nil;
     [SFNYTimesParser initWithFeed:[NSURL URLWithString:NYTimes]];
 }
 
-
-#pragma mark - Controlling Network Requests - 
-
-- (void)cancelNetworkRequests
+- (void)getListOfNearbyPlaceFromDubizzle
 {
-
+    [Foursquare2 venueExploreRecommendedNearByLatitude:Dubizzle_lon longitude:Dubizzle_lat near:nil accuracyLL:@500 altitude:@0 accuracyAlt:@1000 query:nil limit:@20 offset:@0 radius:nil section:nil novelty:nil sortByDistance:YES openNow:NO venuePhotos:YES price:nil callback:^(BOOL success, id result) {
+        
+        NSDictionary* dictOfResults = (NSDictionary*)result[@"response"];
+     // pass it now to the foursquare parser to handle the rest
+          ;
+        [SFFourSquareVeneuesParser initWithArray:[dictOfResults valueForKeyPath:@"groups.items.venue"]];
+       
+    } ];
 }
-
 
 #pragma mark - Network Requests - 
 

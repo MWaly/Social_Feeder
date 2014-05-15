@@ -46,7 +46,7 @@
  *  @return operation perfromed
  */
 
-- (NSOperation *)getListOfNearbyPlace;
+- (void)getListOfNearbyPlaceFromDubizzle;
 
 
 /**

@@ -54,6 +54,12 @@
 #define COCOAPODS_VERSION_MINOR_DateTools 2
 #define COCOAPODS_VERSION_PATCH_DateTools 0
 
+// Foursquare-API-v2
+#define COCOAPODS_POD_AVAILABLE_Foursquare_API_v2
+#define COCOAPODS_VERSION_MAJOR_Foursquare_API_v2 1
+#define COCOAPODS_VERSION_MINOR_Foursquare_API_v2 4
+#define COCOAPODS_VERSION_PATCH_Foursquare_API_v2 5
+
 // MWFeedParser
 #define COCOAPODS_POD_AVAILABLE_MWFeedParser
 #define COCOAPODS_VERSION_MAJOR_MWFeedParser 1

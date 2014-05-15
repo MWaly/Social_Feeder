@@ -28,6 +28,8 @@
 		52D3E576192499020088828F /* SFItunesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E575192499020088828F /* SFItunesParser.m */; };
 		52D3E57C1924C3860088828F /* SFNYTimesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E57B1924C3860088828F /* SFNYTimesParser.m */; };
 		52D3E57F1924C3AC0088828F /* SFFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E57E1924C3AC0088828F /* SFFeedParser.m */; };
+		52D3E5821924E5C20088828F /* SFFourSquareVeneuesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E5811924E5C20088828F /* SFFourSquareVeneuesParser.m */; };
+		52D3E5851924E6010088828F /* SFFourSquareVenueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E5841924E6010088828F /* SFFourSquareVenueItem.m */; };
 		B74DDC1992B44B4688CC3016 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45489AEEF354448C9D37D2EB /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,10 @@
 		52D3E57B1924C3860088828F /* SFNYTimesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNYTimesParser.m; sourceTree = "<group>"; };
 		52D3E57D1924C3AC0088828F /* SFFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFeedParser.h; sourceTree = "<group>"; };
 		52D3E57E1924C3AC0088828F /* SFFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFeedParser.m; sourceTree = "<group>"; };
+		52D3E5801924E5C20088828F /* SFFourSquareVeneuesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFourSquareVeneuesParser.h; sourceTree = "<group>"; };
+		52D3E5811924E5C20088828F /* SFFourSquareVeneuesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFourSquareVeneuesParser.m; sourceTree = "<group>"; };
+		52D3E5831924E6010088828F /* SFFourSquareVenueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFourSquareVenueItem.h; sourceTree = "<group>"; };
+		52D3E5841924E6010088828F /* SFFourSquareVenueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFourSquareVenueItem.m; sourceTree = "<group>"; };
 		79737C3E576548028B1C2C97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +120,8 @@
 				52D3E57B1924C3860088828F /* SFNYTimesParser.m */,
 				52D3E57D1924C3AC0088828F /* SFFeedParser.h */,
 				52D3E57E1924C3AC0088828F /* SFFeedParser.m */,
+				52D3E5801924E5C20088828F /* SFFourSquareVeneuesParser.h */,
+				52D3E5811924E5C20088828F /* SFFourSquareVeneuesParser.m */,
 			);
 			name = Feeders;
 			sourceTree = "<group>";
@@ -153,6 +161,8 @@
 				52D3E42819242C810088828F /* JSON Helpers */,
 				52AB4FA31923E23C00753337 /* SFItem.h */,
 				52AB4FA41923E23C00753337 /* SFItem.m */,
+				52D3E5831924E6010088828F /* SFFourSquareVenueItem.h */,
+				52D3E5841924E6010088828F /* SFFourSquareVenueItem.m */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
@@ -417,6 +427,8 @@
 				52AB4FA51923E23C00753337 /* SFItem.m in Sources */,
 				52D3E57F1924C3AC0088828F /* SFFeedParser.m in Sources */,
 				52B3C25B1923888500363E60 /* SFAppDelegate.m in Sources */,
+				52D3E5821924E5C20088828F /* SFFourSquareVeneuesParser.m in Sources */,
+				52D3E5851924E6010088828F /* SFFourSquareVenueItem.m in Sources */,
 				52AB4FA11923E1E500753337 /* SFNotifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

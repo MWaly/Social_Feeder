@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Foursquare-API-v2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MWFeedParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1B6945A7F40749E18CB91E8C</key>
+		<key>32D37F8BD2C04F3486AE7768</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B5686F34FA2C4C348010E248</key>
+		<key>4EB76A7926554E4A9C8DE786</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C15A953D79C94F48B01D03A0</key>
+		<key>96E9F86143814B7295EAD4FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD684724E08741B8A963EDB7</key>
+		<key>CA080EC038B44242934C1FF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8DA5C5CFE80404CA76232E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

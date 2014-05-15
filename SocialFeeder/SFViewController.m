@@ -19,6 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [[SFSyncer syncer] getListOfiTunesSongs];
+    [[SFSyncer syncer] getListOfNearbyPlaceFromDubizzle];
+    [[SFSyncer syncer] getListOfNYNews];
 }
 
 - (void)didReceiveMemoryWarning
