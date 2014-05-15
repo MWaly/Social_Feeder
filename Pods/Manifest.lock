@@ -18,6 +18,7 @@ PODS:
   - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - DateTools (1.2.0)
   - MWFeedParser (1.0.1):
     - MWFeedParser/FeedParser
     - MWFeedParser/NSDate+InternetDateTime
@@ -30,10 +31,12 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - DateTools
   - MWFeedParser
 
 SPEC CHECKSUMS:
   AFNetworking: 01aa7c3aa9a200b94943e54072a4373f14b3d219
+  DateTools: 6989dcb0df9dad3ae499f5e9efbd988116586f67
   MWFeedParser: c747d7e43ad365a7f18e84924496665944228e86
 
 COCOAPODS: 0.32.1

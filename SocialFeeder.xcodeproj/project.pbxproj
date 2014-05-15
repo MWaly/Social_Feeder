@@ -25,6 +25,9 @@
 		52B3C26C1923888500363E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B3C24E1923888500363E60 /* UIKit.framework */; };
 		52B3C2741923888500363E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B3C2721923888500363E60 /* InfoPlist.strings */; };
 		52B3C2761923888500363E60 /* SocialFeederTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3C2751923888500363E60 /* SocialFeederTests.m */; };
+		52D3E576192499020088828F /* SFItunesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E575192499020088828F /* SFItunesParser.m */; };
+		52D3E57C1924C3860088828F /* SFNYTimesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E57B1924C3860088828F /* SFNYTimesParser.m */; };
+		52D3E57F1924C3AC0088828F /* SFFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3E57E1924C3AC0088828F /* SFFeedParser.m */; };
 		B74DDC1992B44B4688CC3016 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45489AEEF354448C9D37D2EB /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +71,12 @@
 		52B3C2711923888500363E60 /* SocialFeederTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialFeederTests-Info.plist"; sourceTree = "<group>"; };
 		52B3C2731923888500363E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52B3C2751923888500363E60 /* SocialFeederTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFeederTests.m; sourceTree = "<group>"; };
+		52D3E574192499020088828F /* SFItunesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFItunesParser.h; sourceTree = "<group>"; };
+		52D3E575192499020088828F /* SFItunesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFItunesParser.m; sourceTree = "<group>"; };
+		52D3E57A1924C3860088828F /* SFNYTimesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNYTimesParser.h; sourceTree = "<group>"; };
+		52D3E57B1924C3860088828F /* SFNYTimesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNYTimesParser.m; sourceTree = "<group>"; };
+		52D3E57D1924C3AC0088828F /* SFFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFeedParser.h; sourceTree = "<group>"; };
+		52D3E57E1924C3AC0088828F /* SFFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFeedParser.m; sourceTree = "<group>"; };
 		79737C3E576548028B1C2C97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +108,12 @@
 		52AB4F9B1923E10900753337 /* Feeders */ = {
 			isa = PBXGroup;
 			children = (
+				52D3E574192499020088828F /* SFItunesParser.h */,
+				52D3E575192499020088828F /* SFItunesParser.m */,
+				52D3E57A1924C3860088828F /* SFNYTimesParser.h */,
+				52D3E57B1924C3860088828F /* SFNYTimesParser.m */,
+				52D3E57D1924C3AC0088828F /* SFFeedParser.h */,
+				52D3E57E1924C3AC0088828F /* SFFeedParser.m */,
 			);
 			name = Feeders;
 			sourceTree = "<group>";
@@ -109,6 +124,37 @@
 				52B3C25C1923888500363E60 /* Main.storyboard */,
 			);
 			name = "Interface Outlet Files";
+			sourceTree = "<group>";
+		};
+		52AB4FAA1923F32D00753337 /* Business Handling */ = {
+			isa = PBXGroup;
+			children = (
+				52AB4FA61923E28700753337 /* SFBusinessHandler.h */,
+				52AB4FA71923E28700753337 /* SFBusinessHandler.m */,
+				52AB4F9C1923E1B400753337 /* SFSyncer.h */,
+				52AB4F9D1923E1B400753337 /* SFSyncer.m */,
+			);
+			name = "Business Handling";
+			sourceTree = "<group>";
+		};
+		52AB4FAB1923F33500753337 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				52AB4F9F1923E1E500753337 /* SFNotifications.h */,
+				52AB4FA01923E1E500753337 /* SFNotifications.m */,
+				52AB4FA91923F18000753337 /* SFConstants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		52AB4FAC1923F33D00753337 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D3E42819242C810088828F /* JSON Helpers */,
+				52AB4FA31923E23C00753337 /* SFItem.h */,
+				52AB4FA41923E23C00753337 /* SFItem.m */,
+			);
+			name = "Data Models";
 			sourceTree = "<group>";
 		};
 		52B3C23E1923888500363E60 = {
@@ -215,17 +261,18 @@
 		52B3C2821923C40200363E60 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				52AB4F9C1923E1B400753337 /* SFSyncer.h */,
-				52AB4F9D1923E1B400753337 /* SFSyncer.m */,
-				52AB4F9F1923E1E500753337 /* SFNotifications.h */,
-				52AB4FA01923E1E500753337 /* SFNotifications.m */,
-				52AB4FA31923E23C00753337 /* SFItem.h */,
-				52AB4FA41923E23C00753337 /* SFItem.m */,
-				52AB4FA61923E28700753337 /* SFBusinessHandler.h */,
-				52AB4FA71923E28700753337 /* SFBusinessHandler.m */,
-				52AB4FA91923F18000753337 /* SFConstants.h */,
+				52AB4FAC1923F33D00753337 /* Data Models */,
+				52AB4FAB1923F33500753337 /* Constants */,
+				52AB4FAA1923F32D00753337 /* Business Handling */,
 			);
 			name = Shared;
+			sourceTree = "<group>";
+		};
+		52D3E42819242C810088828F /* JSON Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "JSON Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,11 +408,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D3E576192499020088828F /* SFItunesParser.m in Sources */,
 				52B3C2571923888500363E60 /* main.m in Sources */,
 				52B3C2611923888500363E60 /* SFViewController.m in Sources */,
 				52AB4FA81923E28700753337 /* SFBusinessHandler.m in Sources */,
 				52AB4F9E1923E1B400753337 /* SFSyncer.m in Sources */,
+				52D3E57C1924C3860088828F /* SFNYTimesParser.m in Sources */,
 				52AB4FA51923E23C00753337 /* SFItem.m in Sources */,
+				52D3E57F1924C3AC0088828F /* SFFeedParser.m in Sources */,
 				52B3C25B1923888500363E60 /* SFAppDelegate.m in Sources */,
 				52AB4FA11923E1E500753337 /* SFNotifications.m in Sources */,
 			);

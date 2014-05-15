@@ -10,4 +10,5 @@
 
 @interface SFBusinessHandler : NSObject
 
++ (void) parseItunesFeed:(NSArray*)itunesFeed;
 @end

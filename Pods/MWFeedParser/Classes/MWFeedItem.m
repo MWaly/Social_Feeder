@@ -59,7 +59,9 @@
 		summary = [decoder decodeObjectForKey:@"summary"];
 		content = [decoder decodeObjectForKey:@"content"];
 		author = [decoder decodeObjectForKey:@"author"];
+        itunesImage = [decoder decodeObjectForKey:@"itunesImage"];
 		enclosures = [decoder decodeObjectForKey:@"enclosures"];
+    
 	}
 	return self;
 }
@@ -74,6 +76,7 @@
 	if (content) [encoder encodeObject:content forKey:@"content"];
 	if (author) [encoder encodeObject:author forKey:@"author"];
 	if (enclosures) [encoder encodeObject:enclosures forKey:@"enclosures"];
+    if (itunesImage) [encoder encodeObject:itunesImage forKey:@"itunesImage"];
 }
 
 @end

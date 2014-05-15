@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MWFeedParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3160D45A465A4E50B5BB0F31</key>
+		<key>1B6945A7F40749E18CB91E8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>468F5E5B450F4FD7B53E5096</key>
+		<key>B5686F34FA2C4C348010E248</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8595E4B3FF0C41C49D079BFA</key>
+		<key>C15A953D79C94F48B01D03A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD684724E08741B8A963EDB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

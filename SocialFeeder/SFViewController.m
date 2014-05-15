@@ -7,7 +7,7 @@
 //
 
 #import "SFViewController.h"
-
+#import "SFSyncer.h"
 @interface SFViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[SFSyncer syncer] getListOfiTunesSongs];
 }
 
 - (void)didReceiveMemoryWarning

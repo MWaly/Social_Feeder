@@ -7,12 +7,12 @@
 //
 
 #import "SFAppDelegate.h"
-
+#import "AFNetworkActivityIndicatorManager.h"
 @implementation SFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     return YES;
 }
 
